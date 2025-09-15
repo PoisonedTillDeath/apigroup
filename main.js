@@ -49,7 +49,7 @@ setTimeout(() => {
                 user-select: none;
             `;
 
-            fetch("https://raw.githubusercontent.com/Blobby-Boi/uBlobeBM/refs/heads/main/main.html")
+            fetch("https://raw.githubusercontent.com/PoisonedTillDeath/apigroup/refs/heads/main/main.html")
                 .then(response => response.text())
                 .then(html => {
                     const uBlobeHtml = blobFrame.contentDocument || blobFrame.contentWindow.document;
@@ -101,7 +101,7 @@ setTimeout(() => {
             closeButton.addEventListener("click", closeIframe);
 
             const titleText = document.createElement("div");
-            titleText.innerText = "uBlobeBM";
+            titleText.innerText = "CodeLaunch Pro";
             titleText.style.cssText = `
                 position: absolute;
                 top: 50%;
